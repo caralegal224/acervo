@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acervo-assets"
+version = "1.0.0"
+description = "Biblioteca de assets procedurais (texturas PBR, sprites, UI, tilesets, modelos 3D, efeitos sonoros, ambientes e músicas) — tudo editável e CC0."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Código: MIT. Assets gerados: CC0-1.0"}
+dependencies = ["numpy>=1.22", "Pillow>=9.2"]
+
+[project.scripts]
+acervo = "acervo.__main__:main"
+
+[tool.setuptools]
+packages = ["acervo", "acervo.som"]
+
+[tool.setuptools.package-data]
+acervo = ["presets/*.json"]

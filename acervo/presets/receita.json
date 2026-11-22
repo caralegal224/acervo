@@ -1,0 +1,2315 @@
+{
+ "_ajuda": "Edite este arquivo e rode: python -m acervo construir --receita presets/receita.json",
+ "texturas": {
+  "tamanho": 512,
+  "pixel": [
+   32
+  ],
+  "mapas": true,
+  "lista": [
+   {
+    "nome": "agua",
+    "gerador": "agua",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "areia",
+    "gerador": "areia",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "asfalto",
+    "gerador": "asfalto",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "azulejo",
+    "gerador": "azulejo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "caixote",
+    "gerador": "caixote",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "camuflagem",
+    "gerador": "camuflagem",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "carpete",
+    "gerador": "carpete",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "casca",
+    "gerador": "casca",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "chapa_xadrez",
+    "gerador": "chapa_xadrez",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "circuito",
+    "gerador": "circuito",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "concreto",
+    "gerador": "concreto",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "couro",
+    "gerador": "couro",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "cristal",
+    "gerador": "cristal",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "escamas",
+    "gerador": "escamas",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "espaco",
+    "gerador": "espaco",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "ferrugem",
+    "gerador": "ferrugem",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "folhagem",
+    "gerador": "folhagem",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "gelo",
+    "gerador": "gelo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "grade_metal",
+    "gerador": "grade_metal",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "grama",
+    "gerador": "grama",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "granito",
+    "gerador": "granito",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "hexagonos",
+    "gerador": "hexagonos",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "lava",
+    "gerador": "lava",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "madeira",
+    "gerador": "madeira",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "marmore",
+    "gerador": "marmore",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "metal_escovado",
+    "gerador": "metal_escovado",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "musgo",
+    "gerador": "musgo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "neve",
+    "gerador": "neve",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "nuvens",
+    "gerador": "nuvens",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "ouro",
+    "gerador": "ouro",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "painel_scifi",
+    "gerador": "painel_scifi",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "papel",
+    "gerador": "papel",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "paralelepipedo",
+    "gerador": "paralelepipedo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "pedra",
+    "gerador": "pedra",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "pedra_musgo",
+    "gerador": "pedra_musgo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "pele_alien",
+    "gerador": "pele_alien",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "ruido_celular",
+    "gerador": "ruido_celular",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "ruido_perlin",
+    "gerador": "ruido_perlin",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "tabuas",
+    "gerador": "tabuas",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "tecido",
+    "gerador": "tecido",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "telhado",
+    "gerador": "telhado",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "terra",
+    "gerador": "terra",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "tijolo",
+    "gerador": "tijolo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "uv_teste",
+    "gerador": "uv_teste",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "xadrez",
+    "gerador": "xadrez",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "tijolo_branco",
+    "gerador": "tijolo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#b9b4ab",
+      "#d3cec4",
+      "#e6e1d7",
+      "#f3efe7"
+     ],
+     "cor_rejunte": "#8a857c",
+     "sujeira": 0.15
+    }
+   },
+   {
+    "nome": "tijolo_castelo",
+    "gerador": "tijolo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#4a4a52",
+      "#5f5f68",
+      "#76767f",
+      "#8c8c94"
+     ],
+     "cor_rejunte": "#2a2a30",
+     "linhas": 6,
+     "colunas": 3,
+     "desgaste": 0.8
+    }
+   },
+   {
+    "nome": "tijolo_amarelo",
+    "gerador": "tijolo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#a8743a",
+      "#c89048",
+      "#d8a860",
+      "#e6c07a"
+     ],
+     "cor_rejunte": "#e8e0d0"
+    }
+   },
+   {
+    "nome": "pedra_masmorra",
+    "gerador": "pedra",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#22232a",
+      "#33343c",
+      "#45464f",
+      "#575862"
+     ],
+     "cor_junta": "#0e0e12",
+     "celulas": 5
+    }
+   },
+   {
+    "nome": "pedra_arenito",
+    "gerador": "pedra",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#8a6a44",
+      "#a88658",
+      "#c4a070",
+      "#d8ba8a"
+     ],
+     "cor_junta": "#4a3420",
+     "celulas": 7
+    }
+   },
+   {
+    "nome": "paralelepipedo_quente",
+    "gerador": "paralelepipedo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#6a5444",
+      "#86705c",
+      "#a08a74",
+      "#b8a28a"
+     ],
+     "cor_junta": "#3a2e24"
+    }
+   },
+   {
+    "nome": "madeira_clara",
+    "gerador": "madeira",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#a8845a",
+      "#c4a070",
+      "#dcbc8c",
+      "#ecd6ac"
+     ]
+    }
+   },
+   {
+    "nome": "madeira_escura",
+    "gerador": "madeira",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1e0f08",
+      "#3a1d10",
+      "#5a2e18",
+      "#7a4424"
+     ]
+    }
+   },
+   {
+    "nome": "tabuas_cinza",
+    "gerador": "tabuas",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#4a4a48",
+      "#6a6864",
+      "#8a8680",
+      "#aaa59c"
+     ],
+     "cor_fresta": "#1e1e1c"
+    }
+   },
+   {
+    "nome": "tabuas_vermelhas",
+    "gerador": "tabuas",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#4a1410",
+      "#7a2418",
+      "#9a3420",
+      "#b04830"
+     ],
+     "tabuas": 6
+    }
+   },
+   {
+    "nome": "tabuas_verticais",
+    "gerador": "tabuas",
+    "semente": 2,
+    "params": {
+     "direcao": "vertical",
+     "tabuas": 6
+    }
+   },
+   {
+    "nome": "grama_florida",
+    "gerador": "grama",
+    "semente": 2,
+    "params": {
+     "flores": 0.12
+    }
+   },
+   {
+    "nome": "grama_seca",
+    "gerador": "grama",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#4a4018",
+      "#6a5a22",
+      "#8a7a30",
+      "#aa9a48",
+      "#c8b868"
+     ]
+    }
+   },
+   {
+    "nome": "grama_alienigena",
+    "gerador": "grama",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1a0a3a",
+      "#3a1a6a",
+      "#5a2a9a",
+      "#8a4ac8",
+      "#c08aff"
+     ],
+     "flores": 0.06,
+     "cores_flores": [
+      "#7affea",
+      "#ffea7a"
+     ]
+    }
+   },
+   {
+    "nome": "terra_seca",
+    "gerador": "terra",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#6a4a2e",
+      "#8a6640",
+      "#a88454",
+      "#c4a06c"
+     ],
+     "umidade": 0.0,
+     "pedrinhas": 0.2
+    }
+   },
+   {
+    "nome": "terra_vermelha",
+    "gerador": "terra",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#4a1a0e",
+      "#6e2a16",
+      "#8e3c20",
+      "#ae5430"
+     ],
+     "cor_pedrinha": "#a8988a"
+    }
+   },
+   {
+    "nome": "marmore_preto",
+    "gerador": "marmore",
+    "semente": 2,
+    "params": {
+     "cor_base": "#1a1a1c",
+     "cor_nuvem": "#2a2a2e",
+     "cor_veio": "#e8e4dc",
+     "cor_veio2": "#7a7672"
+    }
+   },
+   {
+    "nome": "marmore_verde",
+    "gerador": "marmore",
+    "semente": 2,
+    "params": {
+     "cor_base": "#1e4a3a",
+     "cor_nuvem": "#2a5e4a",
+     "cor_veio": "#dfeee6",
+     "cor_veio2": "#6a9a84"
+    }
+   },
+   {
+    "nome": "terrazzo",
+    "gerador": "granito",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#efe9df",
+      "#d84a3a",
+      "#3a7ad8",
+      "#f0c040",
+      "#3a9a5a"
+     ],
+     "pesos": [
+      0.7,
+      0.08,
+      0.08,
+      0.07,
+      0.07
+     ],
+     "graos": 24
+    }
+   },
+   {
+    "nome": "azulejo_xadrez",
+    "gerador": "azulejo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#f0ede6",
+      "#1e1e22"
+     ],
+     "padrao": "xadrez",
+     "rejunte": 0.02
+    }
+   },
+   {
+    "nome": "azulejo_portugues",
+    "gerador": "azulejo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#f4f1ea",
+      "#2a5aa8",
+      "#e6ecf6"
+     ],
+     "quantidade": 6,
+     "variacao": 0.04
+    }
+   },
+   {
+    "nome": "azulejo_piscina",
+    "gerador": "azulejo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#5ac8e0",
+      "#4ab8d8",
+      "#6ad4e8"
+     ],
+     "quantidade": 16,
+     "cor_rejunte": "#d8f0f4"
+    }
+   },
+   {
+    "nome": "favo_de_mel",
+    "gerador": "hexagonos",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#e8a420",
+      "#f0b830",
+      "#d89418"
+     ],
+     "cor_rejunte": "#7a4a08",
+     "colunas": 10
+    }
+   },
+   {
+    "nome": "tecido_vermelho",
+    "gerador": "tecido",
+    "semente": 2,
+    "params": {
+     "cor_fio1": "#a8201e",
+     "cor_fio2": "#7a1414",
+     "fios": 64
+    }
+   },
+   {
+    "nome": "linho",
+    "gerador": "tecido",
+    "semente": 2,
+    "params": {
+     "cor_fio1": "#d8ccb0",
+     "cor_fio2": "#c4b898",
+     "fios": 72,
+     "felpa": 0.5
+    }
+   },
+   {
+    "nome": "couro_preto",
+    "gerador": "couro",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#08080a",
+      "#16161a",
+      "#24242a",
+      "#34343c"
+     ]
+    }
+   },
+   {
+    "nome": "camuflagem_deserto",
+    "gerador": "camuflagem",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#c8a878",
+      "#a88458",
+      "#8a6a44",
+      "#6a5038"
+     ]
+    }
+   },
+   {
+    "nome": "camuflagem_digital",
+    "gerador": "camuflagem",
+    "semente": 2,
+    "params": {
+     "digital": true,
+     "cores": [
+      "#5a6a4a",
+      "#3a4a2e",
+      "#8a9a6a",
+      "#2a2a1e"
+     ]
+    }
+   },
+   {
+    "nome": "camuflagem_neve",
+    "gerador": "camuflagem",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#eef2f6",
+      "#b8c0ca",
+      "#8a94a0",
+      "#5a646e"
+     ]
+    }
+   },
+   {
+    "nome": "nuvens_tempestade",
+    "gerador": "nuvens",
+    "semente": 2,
+    "params": {
+     "cor_ceu": "#2a3440",
+     "cor_ceu2": "#4a5664",
+     "cor_nuvem": "#6a7480",
+     "cor_sombra": "#1a2028",
+     "cobertura": 0.75
+    }
+   },
+   {
+    "nome": "nuvens_por_do_sol",
+    "gerador": "nuvens",
+    "semente": 2,
+    "params": {
+     "cor_ceu": "#3a2a6a",
+     "cor_ceu2": "#e86a5a",
+     "cor_nuvem": "#ffcc8a",
+     "cor_sombra": "#a83a5a",
+     "cobertura": 0.45
+    }
+   },
+   {
+    "nome": "espaco_azul",
+    "gerador": "espaco",
+    "semente": 2,
+    "params": {
+     "cores_nebulosa": [
+      "#02040a",
+      "#0a1a3a",
+      "#1a4a8a",
+      "#3aa8d8",
+      "#c8f4ff"
+     ]
+    }
+   },
+   {
+    "nome": "espaco_verde",
+    "gerador": "espaco",
+    "semente": 2,
+    "params": {
+     "cores_nebulosa": [
+      "#020a06",
+      "#0a2a1a",
+      "#1a6a3a",
+      "#6ac86a",
+      "#e8ffc8"
+     ]
+    }
+   },
+   {
+    "nome": "cristal_verde",
+    "gerador": "cristal",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#022a14",
+      "#0a6a3a",
+      "#2ac86a",
+      "#a8ffcc",
+      "#ffffff"
+     ]
+    }
+   },
+   {
+    "nome": "cristal_rubi",
+    "gerador": "cristal",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#2a0208",
+      "#7a0a1a",
+      "#d82a3a",
+      "#ffa8b4",
+      "#ffffff"
+     ]
+    }
+   },
+   {
+    "nome": "cobre",
+    "gerador": "metal_escovado",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#5a2a14",
+      "#8a4424",
+      "#b46a3a",
+      "#d89464"
+     ]
+    }
+   },
+   {
+    "nome": "aco_escuro",
+    "gerador": "metal_escovado",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1e2024",
+      "#2e3136",
+      "#3e4248",
+      "#50555c"
+     ]
+    }
+   },
+   {
+    "nome": "ferrugem_total",
+    "gerador": "ferrugem",
+    "semente": 2,
+    "params": {
+     "quantidade": 0.9
+    }
+   },
+   {
+    "nome": "circuito_azul",
+    "gerador": "circuito",
+    "semente": 2,
+    "params": {
+     "cor_placa": "#0a1a3a",
+     "cor_trilha": "#2a5aa8",
+     "cor_metal": "#c8d8e8",
+     "cor_chip": "#0a0a10"
+    }
+   },
+   {
+    "nome": "painel_branco",
+    "gerador": "painel_scifi",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#9aa0a8",
+      "#b8bec6",
+      "#d4d8de",
+      "#eef0f2"
+     ],
+     "cor_luz": "#ff7a3a"
+    }
+   },
+   {
+    "nome": "escamas_dragao",
+    "gerador": "escamas",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#3a0a0a",
+      "#7a1414",
+      "#b82a1e",
+      "#f06a3a"
+     ]
+    }
+   },
+   {
+    "nome": "telhado_ardosia",
+    "gerador": "telhado",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1e2228",
+      "#2e343c",
+      "#40474f",
+      "#555d66"
+     ]
+    }
+   },
+   {
+    "nome": "telhado_verde",
+    "gerador": "telhado",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1a3a2a",
+      "#2a5a3a",
+      "#3a7a4a",
+      "#5a9a62"
+     ]
+    }
+   },
+   {
+    "nome": "carpete_azul",
+    "gerador": "carpete",
+    "semente": 2,
+    "params": {
+     "cor1": "#1e3a7a",
+     "cor2": "#e8d8a8",
+     "cor3": "#7a1e2a"
+    }
+   },
+   {
+    "nome": "pele_alien_roxa",
+    "gerador": "pele_alien",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#1a0a2a",
+      "#3a1a5a",
+      "#6a3a8a",
+      "#a87ac8"
+     ],
+     "cor_veia": "#0a6a5a"
+    }
+   },
+   {
+    "nome": "lava_azul",
+    "gerador": "lava",
+    "semente": 2,
+    "params": {
+     "cores_brasa": [
+      "#00103a",
+      "#0a3aa8",
+      "#2a8aff",
+      "#a8e8ff"
+     ]
+    }
+   },
+   {
+    "nome": "agua_pantano",
+    "gerador": "agua",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#0e1e0a",
+      "#1e3a14",
+      "#3a5a22",
+      "#7a8a4a"
+     ],
+     "intensidade": 0.5
+    }
+   },
+   {
+    "nome": "ruido_ridged",
+    "gerador": "ruido_perlin",
+    "semente": 2,
+    "params": {
+     "tipo": "ridged"
+    }
+   },
+   {
+    "nome": "ruido_turbulencia",
+    "gerador": "ruido_perlin",
+    "semente": 2,
+    "params": {
+     "tipo": "turbulencia"
+    }
+   },
+   {
+    "nome": "ruido_celular_bordas",
+    "gerador": "ruido_celular",
+    "semente": 2,
+    "params": {
+     "modo": "bordas"
+    }
+   },
+   {
+    "nome": "ruido_celular_mosaico",
+    "gerador": "ruido_celular",
+    "semente": 2,
+    "params": {
+     "modo": "celulas",
+     "escala": 12
+    }
+   },
+   {
+    "nome": "grade_redonda",
+    "gerador": "grade_metal",
+    "semente": 2,
+    "params": {
+     "furo": "redondo"
+    }
+   },
+   {
+    "nome": "musgo_seco",
+    "gerador": "musgo",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#2a2a0e",
+      "#4a4a18",
+      "#6a6a24",
+      "#8a8a3a",
+      "#aaa858"
+     ]
+    }
+   },
+   {
+    "nome": "ouro_branco",
+    "gerador": "ouro",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#6a6a6e",
+      "#a8a8ae",
+      "#d4d4da",
+      "#ececf0",
+      "#ffffff"
+     ]
+    }
+   },
+   {
+    "nome": "papel_branco",
+    "gerador": "papel",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#c8c4bc",
+      "#dcd8d0",
+      "#ece8e0",
+      "#f8f6f2"
+     ],
+     "manchas": 0.1
+    }
+   },
+   {
+    "nome": "caixote_escuro",
+    "gerador": "caixote",
+    "semente": 2,
+    "params": {
+     "cores": [
+      "#2a1a0e",
+      "#4a2e18",
+      "#6a4426",
+      "#8a5e38"
+     ]
+    }
+   }
+  ]
+ },
+ "icones": {
+  "tamanhos": [
+   16,
+   32
+  ],
+  "lista": [
+   {
+    "nome": "moeda",
+    "icone": "moeda",
+    "cores": {}
+   },
+   {
+    "nome": "gema",
+    "icone": "gema",
+    "cores": {}
+   },
+   {
+    "nome": "coracao",
+    "icone": "coracao",
+    "cores": {}
+   },
+   {
+    "nome": "estrela",
+    "icone": "estrela",
+    "cores": {}
+   },
+   {
+    "nome": "pocao",
+    "icone": "pocao",
+    "cores": {}
+   },
+   {
+    "nome": "chave",
+    "icone": "chave",
+    "cores": {}
+   },
+   {
+    "nome": "espada",
+    "icone": "espada",
+    "cores": {}
+   },
+   {
+    "nome": "escudo",
+    "icone": "escudo",
+    "cores": {}
+   },
+   {
+    "nome": "bau",
+    "icone": "bau",
+    "cores": {}
+   },
+   {
+    "nome": "bomba",
+    "icone": "bomba",
+    "cores": {}
+   },
+   {
+    "nome": "cogumelo",
+    "icone": "cogumelo",
+    "cores": {}
+   },
+   {
+    "nome": "maca",
+    "icone": "maca",
+    "cores": {}
+   },
+   {
+    "nome": "pergaminho",
+    "icone": "pergaminho",
+    "cores": {}
+   },
+   {
+    "nome": "caveira",
+    "icone": "caveira",
+    "cores": {}
+   },
+   {
+    "nome": "anel",
+    "icone": "anel",
+    "cores": {}
+   },
+   {
+    "nome": "livro",
+    "icone": "livro",
+    "cores": {}
+   },
+   {
+    "nome": "machado",
+    "icone": "machado",
+    "cores": {}
+   },
+   {
+    "nome": "cajado",
+    "icone": "cajado",
+    "cores": {}
+   },
+   {
+    "nome": "chama",
+    "icone": "chama",
+    "cores": {}
+   },
+   {
+    "nome": "raio",
+    "icone": "raio",
+    "cores": {}
+   },
+   {
+    "nome": "gota",
+    "icone": "gota",
+    "cores": {}
+   },
+   {
+    "nome": "folha",
+    "icone": "folha",
+    "cores": {}
+   },
+   {
+    "nome": "carne",
+    "icone": "carne",
+    "cores": {}
+   },
+   {
+    "nome": "bandeira",
+    "icone": "bandeira",
+    "cores": {}
+   },
+   {
+    "nome": "relogio",
+    "icone": "relogio",
+    "cores": {}
+   },
+   {
+    "nome": "pocao_vermelha",
+    "icone": "pocao",
+    "cores": {
+     "cor": "#d6336c"
+    }
+   },
+   {
+    "nome": "pocao_azul",
+    "icone": "pocao",
+    "cores": {
+     "cor": "#3a7bd5"
+    }
+   },
+   {
+    "nome": "pocao_verde",
+    "icone": "pocao",
+    "cores": {
+     "cor": "#3ab85a"
+    }
+   },
+   {
+    "nome": "pocao_roxa",
+    "icone": "pocao",
+    "cores": {
+     "cor": "#9a4ad8"
+    }
+   },
+   {
+    "nome": "pocao_amarela",
+    "icone": "pocao",
+    "cores": {
+     "cor": "#e8c43a"
+    }
+   },
+   {
+    "nome": "gema_ciano",
+    "icone": "gema",
+    "cores": {
+     "cor": "#3fd0e0"
+    }
+   },
+   {
+    "nome": "gema_rubi",
+    "icone": "gema",
+    "cores": {
+     "cor": "#e0304e"
+    }
+   },
+   {
+    "nome": "gema_esmeralda",
+    "icone": "gema",
+    "cores": {
+     "cor": "#2ec46a"
+    }
+   },
+   {
+    "nome": "gema_ametista",
+    "icone": "gema",
+    "cores": {
+     "cor": "#a04ae0"
+    }
+   },
+   {
+    "nome": "gema_topazio",
+    "icone": "gema",
+    "cores": {
+     "cor": "#f0b030"
+    }
+   },
+   {
+    "nome": "chave_ouro",
+    "icone": "chave",
+    "cores": {
+     "cor": "#e0b13a"
+    }
+   },
+   {
+    "nome": "chave_prata",
+    "icone": "chave",
+    "cores": {
+     "cor": "#c0c8d0"
+    }
+   },
+   {
+    "nome": "chave_bronze",
+    "icone": "chave",
+    "cores": {
+     "cor": "#c07a3a"
+    }
+   },
+   {
+    "nome": "chave_rubi",
+    "icone": "chave",
+    "cores": {
+     "cor": "#d83a4a"
+    }
+   },
+   {
+    "nome": "moeda_ouro",
+    "icone": "moeda",
+    "cores": {
+     "cor": "#f2c230"
+    }
+   },
+   {
+    "nome": "moeda_prata",
+    "icone": "moeda",
+    "cores": {
+     "cor": "#c8d0d8"
+    }
+   },
+   {
+    "nome": "moeda_bronze",
+    "icone": "moeda",
+    "cores": {
+     "cor": "#c8803a"
+    }
+   },
+   {
+    "nome": "escudo_azul",
+    "icone": "escudo",
+    "cores": {
+     "cor": "#3a64c8"
+    }
+   },
+   {
+    "nome": "escudo_vermelho",
+    "icone": "escudo",
+    "cores": {
+     "cor": "#c83a3a"
+    }
+   },
+   {
+    "nome": "escudo_verde",
+    "icone": "escudo",
+    "cores": {
+     "cor": "#3a8a4a"
+    }
+   },
+   {
+    "nome": "escudo_ferro",
+    "icone": "escudo",
+    "cores": {
+     "cor": "#7a828c"
+    }
+   },
+   {
+    "nome": "coracao_vermelho",
+    "icone": "coracao",
+    "cores": {
+     "cor": "#e43b44"
+    }
+   },
+   {
+    "nome": "coracao_azul",
+    "icone": "coracao",
+    "cores": {
+     "cor": "#3a8ae4"
+    }
+   },
+   {
+    "nome": "coracao_dourado",
+    "icone": "coracao",
+    "cores": {
+     "cor": "#f0c040"
+    }
+   },
+   {
+    "nome": "coracao_preto",
+    "icone": "coracao",
+    "cores": {
+     "cor": "#3a3040"
+    }
+   },
+   {
+    "nome": "livro_roxo",
+    "icone": "livro",
+    "cores": {
+     "cor": "#6b2fa3"
+    }
+   },
+   {
+    "nome": "livro_vermelho",
+    "icone": "livro",
+    "cores": {
+     "cor": "#a32f2f"
+    }
+   },
+   {
+    "nome": "livro_verde",
+    "icone": "livro",
+    "cores": {
+     "cor": "#2f7a3a"
+    }
+   },
+   {
+    "nome": "livro_azul",
+    "icone": "livro",
+    "cores": {
+     "cor": "#2f4aa3"
+    }
+   },
+   {
+    "nome": "cajado_gelo",
+    "icone": "cajado",
+    "cores": {
+     "cor": "#47c6ff"
+    }
+   },
+   {
+    "nome": "cajado_fogo",
+    "icone": "cajado",
+    "cores": {
+     "cor": "#ff6a2a"
+    }
+   },
+   {
+    "nome": "cajado_natureza",
+    "icone": "cajado",
+    "cores": {
+     "cor": "#5ad84a"
+    }
+   },
+   {
+    "nome": "cajado_sombra",
+    "icone": "cajado",
+    "cores": {
+     "cor": "#9a4ae0"
+    }
+   },
+   {
+    "nome": "espada_ferro",
+    "icone": "espada",
+    "cores": {
+     "cor": "#c9d3dd"
+    }
+   },
+   {
+    "nome": "espada_ouro",
+    "icone": "espada",
+    "cores": {
+     "cor": "#f0d070"
+    }
+   },
+   {
+    "nome": "espada_rubi",
+    "icone": "espada",
+    "cores": {
+     "cor": "#e0505a"
+    }
+   },
+   {
+    "nome": "espada_cristal",
+    "icone": "espada",
+    "cores": {
+     "cor": "#8ae8ff"
+    }
+   },
+   {
+    "nome": "estrela_amarela",
+    "icone": "estrela",
+    "cores": {
+     "cor": "#ffd23f"
+    }
+   },
+   {
+    "nome": "estrela_azul",
+    "icone": "estrela",
+    "cores": {
+     "cor": "#6ab8ff"
+    }
+   },
+   {
+    "nome": "estrela_rosa",
+    "icone": "estrela",
+    "cores": {
+     "cor": "#ff7ac8"
+    }
+   },
+   {
+    "nome": "chama_laranja",
+    "icone": "chama",
+    "cores": {
+     "cor": "#ff7a1a"
+    }
+   },
+   {
+    "nome": "chama_azul",
+    "icone": "chama",
+    "cores": {
+     "cor": "#3a8aff"
+    }
+   },
+   {
+    "nome": "chama_verde",
+    "icone": "chama",
+    "cores": {
+     "cor": "#4ae05a"
+    }
+   },
+   {
+    "nome": "bandeira_vermelha",
+    "icone": "bandeira",
+    "cores": {
+     "cor": "#e0344a"
+    }
+   },
+   {
+    "nome": "bandeira_azul",
+    "icone": "bandeira",
+    "cores": {
+     "cor": "#3a6ae0"
+    }
+   },
+   {
+    "nome": "bandeira_verde",
+    "icone": "bandeira",
+    "cores": {
+     "cor": "#3ac05a"
+    }
+   }
+  ]
+ },
+ "procedurais": {
+  "naves": {
+   "molde": "nave",
+   "semente": 1,
+   "quadros": 1
+  },
+  "criaturas": {
+   "molde": "criatura",
+   "semente": 2,
+   "quadros": 2
+  },
+  "invasores": {
+   "molde": "invasor",
+   "semente": 3,
+   "quadros": 2
+  },
+  "robos": {
+   "molde": "robo",
+   "semente": 4,
+   "quadros": 2
+  }
+ },
+ "personagens": {
+  "quantidade": 16,
+  "semente": 1
+ },
+ "efeitos": {
+  "tamanhos": [
+   64,
+   128
+  ],
+  "quadros": 8,
+  "particulas": [
+   "circulo_suave",
+   "brilho",
+   "faisca",
+   "anel",
+   "fumaca",
+   "estrela",
+   "bolha",
+   "gota",
+   "fagulha",
+   "folha",
+   "raio"
+  ],
+  "animacoes": [
+   "explosao",
+   "fogo",
+   "fumaca",
+   "magia",
+   "impacto",
+   "coleta",
+   "portal",
+   "agua_respingo"
+  ]
+ },
+ "interface": {
+  "estilos": [
+   "madeira",
+   "pedra",
+   "metal",
+   "pergaminho",
+   "scifi",
+   "doce",
+   "escuro",
+   "floresta"
+  ]
+ },
+ "cenarios": {
+  "tilesets": [
+   "campo",
+   "neve",
+   "deserto",
+   "caverna",
+   "castelo",
+   "vulcao",
+   "floresta",
+   "doce"
+  ],
+  "tamanhos_tile": [
+   16,
+   32
+  ],
+  "fundos": [
+   "dia",
+   "entardecer",
+   "noite",
+   "inverno",
+   "deserto",
+   "alienigena"
+  ],
+  "resolucao_fundo": [
+   640,
+   360
+  ]
+ },
+ "modelos": {
+  "lista": [
+   {
+    "nome": "pinheiro",
+    "objeto": "pinheiro",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "arvore",
+    "objeto": "arvore",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "rocha",
+    "objeto": "rocha",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "cristal",
+    "objeto": "cristal",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "barril",
+    "objeto": "barril",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "caixote",
+    "objeto": "caixote",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "casa",
+    "objeto": "casa",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "bau",
+    "objeto": "bau",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "cogumelo",
+    "objeto": "cogumelo",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "coluna",
+    "objeto": "coluna",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "escada",
+    "objeto": "escada",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "cerca",
+    "objeto": "cerca",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "moeda",
+    "objeto": "moeda",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "gema",
+    "objeto": "gema",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "espada",
+    "objeto": "espada",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "tocha",
+    "objeto": "tocha",
+    "semente": 1,
+    "params": {}
+   },
+   {
+    "nome": "pinheiro_neve",
+    "objeto": "pinheiro",
+    "semente": 2,
+    "params": {
+     "cor_folhas": "#d8e4ee"
+    }
+   },
+   {
+    "nome": "arvore_outono",
+    "objeto": "arvore",
+    "semente": 3,
+    "params": {
+     "cor_folhas": "#d8762a"
+    }
+   },
+   {
+    "nome": "arvore_cerejeira",
+    "objeto": "arvore",
+    "semente": 4,
+    "params": {
+     "cor_folhas": "#f4a8c8"
+    }
+   },
+   {
+    "nome": "rocha_grande",
+    "objeto": "rocha",
+    "semente": 5,
+    "params": {
+     "tamanho": 2.5
+    }
+   },
+   {
+    "nome": "rocha_arenito",
+    "objeto": "rocha",
+    "semente": 6,
+    "params": {
+     "cor": "#b8925e"
+    }
+   },
+   {
+    "nome": "cristal_verde",
+    "objeto": "cristal",
+    "semente": 7,
+    "params": {
+     "cor": "#3ad87a"
+    }
+   },
+   {
+    "nome": "cristal_gelo",
+    "objeto": "cristal",
+    "semente": 8,
+    "params": {
+     "cor": "#9ae4ff"
+    }
+   },
+   {
+    "nome": "casa_azul",
+    "objeto": "casa",
+    "semente": 1,
+    "params": {
+     "cor_parede": "#a8c4e0",
+     "cor_telhado": "#3a4a6a"
+    }
+   },
+   {
+    "nome": "cogumelo_azul",
+    "objeto": "cogumelo",
+    "semente": 1,
+    "params": {
+     "cor_chapeu": "#3a7ad8"
+    }
+   },
+   {
+    "nome": "gema_rubi",
+    "objeto": "gema",
+    "semente": 1,
+    "params": {
+     "cor": "#e0304e"
+    }
+   }
+  ],
+  "primitivas": true,
+  "terreno": true
+ },
+ "sons": {
+  "sfx": [
+   {
+    "categoria": "moeda",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "pulo",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "laser",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "tiro",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "explosao",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "dano",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "powerup",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "blip",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "selecao",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "teleporte",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "queda",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "alarme",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "erro",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "robo",
+    "variacoes": 6,
+    "semente": 1
+   },
+   {
+    "categoria": "magia",
+    "variacoes": 6,
+    "semente": 1
+   }
+  ],
+  "realistas": [
+   {
+    "nome": "passo_terra",
+    "funcao": "passo",
+    "params": {
+     "superficie": "terra"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_pedra",
+    "funcao": "passo",
+    "params": {
+     "superficie": "pedra"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_madeira",
+    "funcao": "passo",
+    "params": {
+     "superficie": "madeira"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_grama",
+    "funcao": "passo",
+    "params": {
+     "superficie": "grama"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_neve",
+    "funcao": "passo",
+    "params": {
+     "superficie": "neve"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_metal",
+    "funcao": "passo",
+    "params": {
+     "superficie": "metal"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_agua",
+    "funcao": "passo",
+    "params": {
+     "superficie": "agua"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "passo_cascalho",
+    "funcao": "passo",
+    "params": {
+     "superficie": "cascalho"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "impacto_madeira",
+    "funcao": "impacto",
+    "params": {
+     "material": "madeira"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "impacto_metal",
+    "funcao": "impacto",
+    "params": {
+     "material": "metal"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "impacto_pedra",
+    "funcao": "impacto",
+    "params": {
+     "material": "pedra"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "impacto_vidro",
+    "funcao": "impacto",
+    "params": {
+     "material": "vidro"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "impacto_carne",
+    "funcao": "impacto",
+    "params": {
+     "material": "carne"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "impacto_terra",
+    "funcao": "impacto",
+    "params": {
+     "material": "terra"
+    },
+    "variacoes": 3
+   },
+   {
+    "nome": "porta_abrir",
+    "funcao": "porta",
+    "params": {
+     "tipo": "abrir"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "porta_fechar",
+    "funcao": "porta",
+    "params": {
+     "tipo": "fechar"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "porta_ranger",
+    "funcao": "porta",
+    "params": {
+     "tipo": "ranger"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_clique",
+    "funcao": "ui",
+    "params": {
+     "tipo": "clique"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_hover",
+    "funcao": "ui",
+    "params": {
+     "tipo": "hover"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_confirmar",
+    "funcao": "ui",
+    "params": {
+     "tipo": "confirmar"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_cancelar",
+    "funcao": "ui",
+    "params": {
+     "tipo": "cancelar"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_notificacao",
+    "funcao": "ui",
+    "params": {
+     "tipo": "notificacao"
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "ui_digitar",
+    "funcao": "ui",
+    "params": {
+     "tipo": "digitar"
+    },
+    "variacoes": 4
+   },
+   {
+    "nome": "whoosh",
+    "funcao": "whoosh",
+    "params": {},
+    "variacoes": 3
+   },
+   {
+    "nome": "whoosh_rapido",
+    "funcao": "whoosh",
+    "params": {
+     "dur": 0.3,
+     "agudo": 1.5
+    },
+    "variacoes": 2
+   },
+   {
+    "nome": "splash",
+    "funcao": "splash",
+    "params": {},
+    "variacoes": 2
+   },
+   {
+    "nome": "splash_pequeno",
+    "funcao": "splash",
+    "params": {
+     "tamanho": 0.5
+    },
+    "variacoes": 2
+   },
+   {
+    "nome": "gota",
+    "funcao": "gota",
+    "params": {},
+    "variacoes": 4
+   },
+   {
+    "nome": "trovao_perto",
+    "funcao": "trovao",
+    "params": {
+     "distancia": 0.1
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "trovao_longe",
+    "funcao": "trovao",
+    "params": {
+     "distancia": 0.8
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "sino_agudo",
+    "funcao": "sino",
+    "params": {
+     "freq": 880.0
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "sino_medio",
+    "funcao": "sino",
+    "params": {
+     "freq": 523.25
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "sino_grave",
+    "funcao": "sino",
+    "params": {
+     "freq": 196.0,
+     "dur": 5.0
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "batimento",
+    "funcao": "batimento",
+    "params": {},
+    "variacoes": 1
+   },
+   {
+    "nome": "batimento_rapido",
+    "funcao": "batimento",
+    "params": {
+     "bpm": 130,
+     "batidas": 6
+    },
+    "variacoes": 1
+   },
+   {
+    "nome": "relogio",
+    "funcao": "relogio",
+    "params": {},
+    "variacoes": 1
+   }
+  ],
+  "instrumentos": {
+   "lista": [
+    "piano",
+    "violao",
+    "harpa",
+    "baixo",
+    "baixo_synth",
+    "pad",
+    "cordas",
+    "orgao",
+    "flauta",
+    "sinos",
+    "marimba",
+    "kalimba",
+    "chip_quadrada",
+    "chip_pulso",
+    "chip_triangulo",
+    "lead",
+    "voz"
+   ],
+   "notas": [
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6"
+   ],
+   "duracao": 0.8
+  },
+  "bateria": [
+   "bumbo",
+   "bumbo_808",
+   "caixa",
+   "aro",
+   "chimbal_fechado",
+   "chimbal_aberto",
+   "prato_ataque",
+   "prato_conducao",
+   "palmas",
+   "tom_grave",
+   "tom_medio",
+   "tom_agudo",
+   "chocalho",
+   "cowbell",
+   "chip_bumbo",
+   "chip_caixa",
+   "chip_chimbal"
+  ],
+  "ambientes": {
+   "lista": [
+    "vento",
+    "chuva",
+    "fogo",
+    "oceano",
+    "floresta",
+    "noite",
+    "caverna",
+    "riacho",
+    "espaco",
+    "nave",
+    "tempestade"
+   ],
+   "duracao": 30,
+   "semente": 1
+  },
+  "musicas": [
+   {
+    "nome": "aventura",
+    "estilo": "aventura",
+    "semente": 1
+   },
+   {
+    "nome": "masmorra",
+    "estilo": "masmorra",
+    "semente": 1
+   },
+   {
+    "nome": "batalha",
+    "estilo": "batalha",
+    "semente": 1
+   },
+   {
+    "nome": "menu",
+    "estilo": "menu",
+    "semente": 1
+   },
+   {
+    "nome": "vila",
+    "estilo": "vila",
+    "semente": 1
+   },
+   {
+    "nome": "misterio",
+    "estilo": "misterio",
+    "semente": 1
+   },
+   {
+    "nome": "espacial",
+    "estilo": "espacial",
+    "semente": 1
+   },
+   {
+    "nome": "chefe",
+    "estilo": "chefe",
+    "semente": 1
+   },
+   {
+    "nome": "tranquilo",
+    "estilo": "tranquilo",
+    "semente": 1
+   },
+   {
+    "nome": "deserto",
+    "estilo": "deserto",
+    "semente": 1
+   },
+   {
+    "nome": "aventura_2",
+    "estilo": "aventura",
+    "semente": 7
+   },
+   {
+    "nome": "batalha_orquestral",
+    "estilo": "batalha",
+    "semente": 3,
+    "mudancas": {
+     "instrumentos": {
+      "melodia": "cordas",
+      "acordes": "cordas",
+      "baixo": "baixo",
+      "arpejo": "harpa"
+     }
+    }
+   },
+   {
+    "nome": "menu_chiptune",
+    "estilo": "menu",
+    "semente": 2,
+    "mudancas": {
+     "instrumentos": {
+      "melodia": "chip_pulso",
+      "acordes": "chip_quadrada",
+      "baixo": "chip_triangulo",
+      "arpejo": null
+     },
+     "acordes": "arpejo",
+     "bateria": {
+      "chip_bumbo": "x.......x.......",
+      "chip_chimbal": "..x...x...x...x."
+     }
+    }
+   }
+  ],
+  "jingles": [
+   {
+    "nome": "vitoria",
+    "jingle": "vitoria",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "derrota",
+    "jingle": "derrota",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "item",
+    "jingle": "item",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "nivel",
+    "jingle": "nivel",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "fim_de_jogo",
+    "jingle": "fim_de_jogo",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "segredo",
+    "jingle": "segredo",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "missao",
+    "jingle": "missao",
+    "instrumento": "chip_quadrada",
+    "acompanhamento": "chip_triangulo"
+   },
+   {
+    "nome": "vitoria_orquestra",
+    "jingle": "vitoria",
+    "instrumento": "cordas",
+    "acompanhamento": "piano"
+   },
+   {
+    "nome": "derrota_orquestra",
+    "jingle": "derrota",
+    "instrumento": "cordas",
+    "acompanhamento": "piano"
+   },
+   {
+    "nome": "missao_orquestra",
+    "jingle": "missao",
+    "instrumento": "cordas",
+    "acompanhamento": "piano"
+   }
+  ],
+  "ogg": true
+ }
+}
